@@ -56,8 +56,10 @@ The implementation was profiled against the OpenSSL reference implementation, mo
 | File | Description |
 | :--- | :--- |
 | AES_code_128.c | Core implementation featuring bitslicing, tower-field S-box, and optimized transformations. |
+| analysis.c | Memory trace generator used for security profiling. |
+| check.py | Leakage testing script to verify constant-time access patterns. |
 | Project Problem Statement.pdf | Detailed requirements and security constraints for the assignment. |
-| ass3_project.pdf | Comprehensive performance report and methodology. |
+| ass3_project.pdf | Comprehensive performance report and implementation methodology. |
 
 ---
 
